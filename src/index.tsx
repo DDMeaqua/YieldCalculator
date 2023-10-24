@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import { bitable, FieldType, ITextField } from '@lark-base-open/js-sdk'; 
-import { CURRENCY } from './const'; 
-import { getExchangeRate } from './exchange-api'; 
 import { Select, Button } from 'antd';
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
